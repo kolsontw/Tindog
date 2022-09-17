@@ -1,0 +1,152 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.d-button {
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+@media (max-width: 988px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    padding-top: 50px;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features i {
+  font-size: 300%;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+.feature {
+  margin: 8% auto;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 10%;
+  margin: 0 20px 50px;
+}
+
+.testimonial-text {
+  padding: 0 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 10rem 3rem;
+  color: white;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 25%;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 5rem 3rem;
+}
+
+#footer i {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
